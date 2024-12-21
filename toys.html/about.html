@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Store</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="toys.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Toy Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center">
+        <h1 class="display-4">Welcome to Toy Store</h1>
+        <p class="lead">Discover the best toys for kids of all ages!</p>
+        <a href="products.html" class="btn btn-primary btn-lg" onclick="showMessage()">Shop Now</a>
+    </header>
+
+    <section id="highlights" class="container text-center my-5">
+        <h2 class="mb-4">Why Choose Us?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="car.jpg" class="img-fluid rounded-circle mb-3" alt="Quality Toys">
+                <h3>High Quality</h3>
+                <p>We offer only the best quality toys for your children.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="toy.jpg" class="img-fluid rounded-circle mb-3" alt="Safe Toys">
+                <h3>Safety First</h3>
+                <p>All our toys meet the highest safety standards.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="dancing doll.jpg" class="img-fluid rounded-circle mb-3" alt="Fun Toys">
+                <h3>Fun & Engaging</h3>
+                <p>Our toys are designed to provide hours of fun and learning.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured-products" class="container my-5">
+        <h2 class="text-center mb-4">Featured Products</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="car.jpg" class="card-img-top" alt="Featured Toy 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Featured Toy 1</h5>
+                        <p class="card-text">An amazing toy for endless fun.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="toy.jpg" class="card-img-top" alt="Featured Toy 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Featured Toy 2</h5>
+                        <p class="card-text">Perfect for creative play.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="dancing doll.jpg" class="card-img-top" alt="Featured Toy 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Featured Toy 3</h5>
+                        <p class="card-text">Ideal for imaginative adventures.</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="bg-light py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Customer Testimonials</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"The best toy store ever! My kids love their new toys."</p>
+                        <footer class="blockquote-footer">Jane Doe, <cite title="Source Title">Happy Parent</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"Fantastic quality and fast shipping. Highly recommend!"</p>
+                        <footer class="blockquote-footer">John Smith, <cite title="Source Title">Satisfied Customer</cite></footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4">
+                    <blockquote class="blockquote">
+                        <p class="mb-0">"A wonderful selection of toys that are both fun and educational."</p>
+                        <footer class="blockquote-footer">Emily Johnson, <cite title="Source Title">Parent</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="container text-center my-5">
+        <h2 class="mb-4">Subscribe to Our Newsletter</h2>
+        <p>Stay updated with the latest products and special offers. Subscribe to our newsletter now!</p>
+        <form>
+            <div class="form-row justify-content-center">
+                <div class="col-md-4">
+                    <input type="email" class="form-control mb-2" placeholder="Enter your email">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 Toy Store. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="toys.js"></script>
+</body>
+</html>
